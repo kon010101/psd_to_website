@@ -32,3 +32,48 @@ header {
 .form {
   
 }
+
+footer {
+  background-image: url(/Assets/bgk-footer.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    }
+
+.footer-content {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(calc(100vmin/2), 1fr));
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+
+.footer-notes {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ color:yellow;
+  }
+
+.footer-notes ul{
+  display: flex;
+  align-self: flex-end;
+  color:green;
+  }
+
+.tajam-logo {
+  display: inline-flex;
+  color:red;
+}
+
+.about {
+  background-color: grey;
+}
+
+.contact {
+  background-color: hotpink;
+}
