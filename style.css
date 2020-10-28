@@ -61,6 +61,8 @@ header {
   background-color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 220px;
   width: 240px;
   padding: 10px;
@@ -82,6 +84,7 @@ header {
 .expertise-grid-container > div > img{
   padding: 20px;
   height: 50px;
+  width: 50px;
 }
 
 .meet-team {
