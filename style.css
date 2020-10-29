@@ -11,6 +11,10 @@
   --white: #ffffff;
 }
 
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
 /* HEADER */
 
 header {
@@ -83,10 +87,6 @@ header {
   padding: 0 20%;
 }
 
-.header-text h1{
-  font-family: 'Playfair Display', serif;
-}
-
 hr.solid{
   margin: 24px auto;
   width: 120px;
@@ -96,8 +96,7 @@ hr.solid{
   background-color: var(--blue);
 }
 
-
-.learn-more-btn {
+.common-btn {
   border: 2px solid var(--blue);
   margin: 24px;
   padding: 12px;
@@ -107,7 +106,7 @@ hr.solid{
   transition: 0.7s;
 }
 
-.learn-more-btn:hover {
+.common-btn:hover {
   background-color: var(--blue);
   color: var(--white);
 }
@@ -120,6 +119,10 @@ hr.solid{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.our-story-title, .text-box-our-story p{
+  margin-bottom: 24px;
 }
 
 .text-box-our-story {
