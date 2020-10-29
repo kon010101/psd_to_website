@@ -6,6 +6,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  margin:0;
+}
+
 :root {
   --blue: #02ded0;
   --white: #ffffff;
