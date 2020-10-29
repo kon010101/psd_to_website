@@ -173,7 +173,7 @@ footer {
   margin: 0 auto;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(calc(100vmin/2), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50vmin, 1fr));
   justify-content: space-around;
   box-sizing: border-box;
 }
