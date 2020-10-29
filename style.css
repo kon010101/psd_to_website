@@ -116,7 +116,29 @@ hr.solid{
 /* OUR HISTORY */
 
 .our-story {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.text-box-our-story {
+  width: 25%;
+  margin: 80px 80px;
+}
+
+.text-box-our-story p {
+  color: #706F78;
+  line-height: 1.5;
+}
+
+.text-box-our-story button {
+  background-color: white;
+  color: #68DACE;
+  border: 1px #68DACE solid;
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .story-video {
