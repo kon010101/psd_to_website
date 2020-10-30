@@ -3,7 +3,7 @@
   margin: 0px;
   text-decoration: none;
   list-style: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -12,7 +12,7 @@
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .common-btn {
@@ -34,7 +34,7 @@ h1 {
 
 header {
   background-image: url(Assets/bgk-header.png);
-  width:100%;
+  width: 100%;
   max-height: 100vh;
   background-size: cover;
   background-position: center bottom;
@@ -51,8 +51,8 @@ header {
 }
 
 .logo-img {
-  width:48px;
-  height:48px;
+  width: 48px;
+  height: 48px;
   background-image: url(Assets/svg/logo.svg);
   background-size: contain;
   background-position: center;
@@ -61,15 +61,15 @@ header {
   align-items: center;
 }
 
-.logo-img span{
-  position:relative;
-  left:56px;
+.logo-img span {
+  position: relative;
+  left: 56px;
   color: var(--blue);
   font-size: 34px;
   font-weight: 100;
 }
 
-.navbar ul li{
+.navbar ul li {
   display: inline-block;
   padding: 0 8px;
   text-transform: uppercase;
@@ -82,11 +82,11 @@ header {
   transition: 0.7s;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: var(--blue);
 }
 
-.header-text-container{
+.header-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,13 +96,13 @@ header {
   margin: 120px 0 20% 0;
 }
 
-.header-text{
+.header-text {
   color: var(--white);
   text-align: center;
   padding: 0 20%;
 }
 
-hr.solid{
+hr.solid {
   margin: 24px auto;
   width: 120px;
   font-size: 1px;
@@ -110,7 +110,6 @@ hr.solid{
   line-height: 1px;
   background-color: var(--blue);
 }
-
 
 /* OUR HISTORY */
 
@@ -121,7 +120,8 @@ hr.solid{
   justify-content: center;
 }
 
-.our-story-title, .text-box-our-story p{
+.our-story-title,
+.text-box-our-story p {
   margin-bottom: 36px;
 }
 
@@ -131,31 +131,55 @@ hr.solid{
 }
 
 .text-box-our-story p {
-  color: #706F78;
+  color: #706f78;
   line-height: 1.5;
 }
 
 .text-box-our-story button {
   background-color: white;
-  color: #68DACE;
-  border: 1px #68DACE solid;
+  color: #68dace;
+  border: 1px #68dace solid;
   width: 120px;
   height: 40px;
   margin-top: 10px;
 }
 
-.story-video {
+/* VIDEO */
 
+.video-container {
+  width: 100%;
+  height: 80vh;
+  background-image: url(Assets/bgk-middle.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  font-weight: 700;
+}
+
+.video-icon {
+  width: 80px;
+  height: 80px;
+  background-image: url(Assets/png/play.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 .expertise {
-
 }
 
 .meet-team {
-
 }
 
 .form {
-
 }
