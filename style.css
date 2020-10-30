@@ -138,11 +138,6 @@ hr.solid {
 
 .our-story-img{
   margin: 36px;
-  flex-shrink: 1;
-}
-
-.text-box-our-story {
-  flex-shrink: 2;
 }
 
 .text-box-our-story button {
@@ -283,6 +278,10 @@ hr.solid {
 
 .team-content h2{
   font-family: 'Playfair Display', serif;
+}
+
+.team-content hr {
+  margin: 36px auto;
 }
 
 .team-grid{
