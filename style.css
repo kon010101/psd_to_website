@@ -34,7 +34,6 @@ h1 {
   color: var(--white);
 }
 
-
 /* HEADER */
 
 header {
@@ -120,7 +119,6 @@ hr.solid {
   background-color: var(--blue);
 }
 
-
 /* OUR HISTORY */
 
 .our-story {
@@ -156,7 +154,6 @@ hr.solid {
   margin-top: 10px;
 }
 
-
 /* VIDEO */
 
 .video-container {
@@ -187,7 +184,6 @@ hr.solid {
   align-items: center;
   margin-bottom: 24px;
 }
-
 
 /* EXPERTISE */
 
@@ -261,7 +257,6 @@ hr.solid {
   width: 50px;
 }
 
-
 /* TEAM */
 
 .team-container {
@@ -331,7 +326,6 @@ hr.solid {
 .teamer-info{
   padding: 8px 0;
 }
-
 
 /* FORM */
 
