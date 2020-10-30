@@ -15,6 +15,8 @@
 
 h1 {
   font-family: "Playfair Display", serif;
+  margin-bottom: 36px;
+  font-size:24px;
 }
 
 .common-btn {
@@ -43,6 +45,10 @@ header {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+}
+
+.header-text h1 {
+font-size: 36px;
 }
 
 .navbar {
@@ -105,7 +111,7 @@ header {
 }
 
 hr.solid {
-  margin: 24px auto;
+  margin: 0 auto 36px auto;
   width: 120px;
   font-size: 1px;
   color: rgba(0, 0, 0, 0);
@@ -174,6 +180,8 @@ hr.solid {
   max-height: 100%;
 }
 
+/* EXPERTISE */
+
 .expertise {
   text-align: center;
   display: flex;
@@ -190,14 +198,15 @@ hr.solid {
 }
 
 .expertise > p {
-  color: #717176;
+  color: var(--grey);
+  margin-bottom: 36px;
 }
 
 .expertise-underline-small {
-  width: 50px;
-  height: 3px;
-  background-color: lightgray;
-  margin-bottom: 30px;
+  width: 120px;
+  height: 1px;
+  background-color:var(--grey);
+  margin-bottom: 36px;
 }
 
 .expertise-grid-container {
@@ -206,7 +215,7 @@ hr.solid {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 1px;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .expertise-grid-container > div {
