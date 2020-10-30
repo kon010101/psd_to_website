@@ -6,19 +6,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-<<<<<<< HEAD
-header {}
-
-.main-navigation {}
-
-.our-story {}
-
-.story-video {}
-
-.expertise {}
-
-.meet-team {}
-
 .form {
   background-color: white;
   display: flex;
@@ -38,10 +25,29 @@ header {}
   margin: 5px 0;
   padding: 10px;
 }
-=======
+
 :root {
   --blue: #02ded0;
   --white: #ffffff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.common-btn {
+  border: 2px solid var(--blue);
+  margin: 24px 0;
+  padding: 12px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+.common-btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /* HEADER */
@@ -116,10 +122,6 @@ header {
   padding: 0 20%;
 }
 
-.header-text h1{
-  font-family: 'Playfair Display', serif;
-}
-
 hr.solid{
   margin: 24px auto;
   width: 120px;
@@ -130,29 +132,41 @@ hr.solid{
 }
 
 
-.learn-more-btn {
-  border: 2px solid var(--blue);
-  margin: 24px;
-  padding: 12px;
-  color: var(--blue);
-  font-size: 14px;
-  font-weight: 700;
-  transition: 0.7s;
-}
-
-.learn-more-btn:hover {
-  background-color: var(--blue);
-  color: var(--white);
-}
-
-
 /* OUR HISTORY */
 
 .our-story {
->>>>>>> 2843b55d8e9528680f7cfb56ffe8550e4d6fb8a4
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-story-title, .text-box-our-story p{
+  margin-bottom: 36px;
+}
+
+.text-box-our-story {
+  width: 25%;
+  margin: 80px 80px;
+}
+
 
 .good-news-form input[name="Name"] {
   margin-top: 20px;
+}
+
+  .text-box-our-story p {
+  color: #706F78;
+  line-height: 1.5;
+}
+
+.text-box-our-story button {
+  background-color: white;
+  color: #68DACE;
+  border: 1px #68DACE solid;
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .good-news-form input[name="Message"] {
@@ -178,6 +192,71 @@ hr.solid{
   max-height: 100%;
 }
 
+.expertise {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expertise > span {
+  color: #00001F;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+}
+
+.expertise > p {
+  color: #717176;
+}
+
+.expertise-underline-small {
+  width: 50px;
+  height: 3px;
+  background-color: lightgray;
+  margin-bottom: 30px;
+}
+
+.expertise-grid-container {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  margin-bottom: 50px;
+}
+
+.expertise-grid-container > div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 240px;
+  padding: 10px;
+}
+
+.expertise-grid-container > div > span {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.expertise-grid-container > div > p {
+  font-size: 10px;
+  line-height: 1.5;
+  color: gray;
+  padding: 5px;
+}
+
+.expertise-grid-container > div > img{
+  padding: 20px;
+  height: 50px;
+  width: 50px;
+}
+
 .form .happy-clients-image-container div {
   width: 110px;
   display: flex;
@@ -194,12 +273,7 @@ hr.solid{
   grid-row-gap: 10px;
 }
 
-<<<<<<< HEAD
 .happy-clients-headline, .good-news-headline {
   font-size: 18px;
   font-weight: 900;
-=======
-.form {
-
->>>>>>> 2843b55d8e9528680f7cfb56ffe8550e4d6fb8a4
 }
