@@ -50,7 +50,7 @@ header {
   align-items: center;
   color: var(--white);
   text-align: center;
-  padding: 36px 20%;
+  padding: 36px 0;
 }
 
 .team-content p{
@@ -73,6 +73,7 @@ hr.solid{
 .team-grid{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 36px;
