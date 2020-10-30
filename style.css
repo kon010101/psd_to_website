@@ -4,11 +4,13 @@
   text-decoration: none;
   list-style: none;
   font-family: "Roboto", sans-serif;
+  line-height: 1.6;
 }
 
 :root {
   --blue: #02ded0;
   --white: #ffffff;
+  --grey: #5a5a5a;
 }
 
 h1 {
@@ -93,7 +95,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 100%;
-  margin: 120px 0 20% 0;
+  margin: auto;
 }
 
 .header-text {
@@ -119,6 +121,16 @@ hr.solid {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 8%;
+}
+
+.our-story-img{
+  margin: 36px;
+  flex-shrink: 1;
+}
+
+.text-box-our-story {
+  flex-shrink: 2;
 }
 
 .our-story-title,
@@ -126,18 +138,8 @@ hr.solid {
   margin-bottom: 36px;
 }
 
-.text-box-our-story {
-  width: 25%;
-  margin: 96px 96px;
-}
-
-.good-news-form input[name="Name"] {
-  margin-top: 20px;
-}
-
 .text-box-our-story p {
-  color: #706f78;
-  line-height: 1.5;
+  color: var(--grey);
 }
 
 .text-box-our-story button {
