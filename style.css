@@ -1,21 +1,147 @@
 * {
-  padding: 0;
-  margin 0;
+  padding: 0px;
+  margin: 0px;
   text-decoration: none;
   list-style: none;
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  --blue: #02ded0;
+  --white: #ffffff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.common-btn {
+  border: 2px solid var(--blue);
+  margin: 24px 0;
+  padding: 12px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+.common-btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/* HEADER */
+
 header {
-
+  background-image: url(Assets/bgk-header.png);
+  width:100%;
+  max-height: 100vh;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
-.main-navigation {
-
+.navbar {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.logo-img {
+  width:48px;
+  height:48px;
+  background-image: url(Assets/svg/logo.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img span{
+  position:relative;
+  left:56px;
+  color: var(--blue);
+  font-size: 34px;
+  font-weight: 100;
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding: 0 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: white;
+  transition: 0.7s;
+}
+
+.navbar a:hover{
+  color: var(--blue);
+}
+
+.header-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 120px 0 20% 0;
+}
+
+.header-text{
+  color: var(--white);
+  text-align: center;
+  padding: 0 20%;
+}
+
+hr.solid{
+  margin: 24px auto;
+  width: 120px;
+  font-size: 1px;
+  color: rgba(0, 0, 0, 0);
+  line-height: 1px;
+  background-color: var(--blue);
+}
+
+
+/* OUR HISTORY */
 
 .our-story {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.our-story-title, .text-box-our-story p{
+  margin-bottom: 36px;
+}
+
+.text-box-our-story {
+  width: 25%;
+  margin: 80px 80px;
+}
+
+.text-box-our-story p {
+  color: #706F78;
+  line-height: 1.5;
+}
+
+.text-box-our-story button {
+  background-color: white;
+  color: #68DACE;
+  border: 1px #68DACE solid;
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .story-video {
