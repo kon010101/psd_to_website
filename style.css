@@ -1,38 +1,18 @@
 * {
   padding: 0;
-  margin 0;
+  margin 0px;
   text-decoration: none;
   list-style: none;
   font-family: 'Roboto', sans-serif;
 }
 
 body{
-  margin:0;
+  margin:0px;
 }
 
 :root {
   --blue: #02ded0;
   --white: #ffffff;
-}
-
-header {
-
-}
-
-.main-navigation {
-
-}
-
-.our-story {
-
-}
-
-.story-video {
-
-}
-
-.expertise {
-
 }
 
 .team-container {
@@ -87,7 +67,25 @@ hr.solid{
 .teamer-img{
   width:240px;
   height:240px;
-  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teamer-profile-01{
+  background-image: url(Assets/JPG/odisha.jpg);
+}
+
+.teamer-profile-02{
+  background-image: url(Assets/JPG/omo-2.jpg);
+}
+
+.teamer-profile-03{
+  background-image: url(Assets/JPG/omo.jpg);
+}
+
+.teamer-profile-04{
+  background-image: url(Assets/JPG/yanomami.jpg);
 }
 
 .teamer-info{
@@ -108,5 +106,3 @@ hr.solid{
   background-color: var(--blue);
   color: var(--white);
 }
-
-.form {
