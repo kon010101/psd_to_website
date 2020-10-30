@@ -138,11 +138,6 @@ hr.solid {
 
 .our-story-img{
   margin: 36px;
-  flex-shrink: 1;
-}
-
-.text-box-our-story {
-  flex-shrink: 2;
 }
 
 .text-box-our-story button {
@@ -255,6 +250,81 @@ hr.solid {
   padding: 20px;
   height: 50px;
   width: 50px;
+}
+
+/* TEAM */
+
+.team-container {
+  background-image: url(Assets/bgk-header.png);
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+  padding: 36px 0;
+}
+
+.team-content p{
+  margin:8px;
+}
+
+.team-content h2{
+  font-family: 'Playfair Display', serif;
+}
+
+.team-content hr {
+  margin: 36px auto;
+  color: white;
+}
+
+.team-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.teamer{
+  border:1px solid var(--white);
+  margin: 6px;
+}
+
+.teamer-img{
+  width:240px;
+  height:240px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teamer-profile-01{
+  background-image: url(Assets/JPG/odisha.jpg);
+}
+
+.teamer-profile-02{
+  background-image: url(Assets/JPG/omo-2.jpg);
+}
+
+.teamer-profile-03{
+  background-image: url(Assets/JPG/omo.jpg);
+}
+
+.teamer-profile-04{
+  background-image: url(Assets/JPG/yanomami.jpg);
+}
+
+.teamer-info{
+  padding: 8px 0;
 }
 
 /* FORM */
