@@ -166,41 +166,17 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-    }
-
-.footer-content {
-  max-width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(50vmin, 1fr));
-  justify-content: space-around;
-  box-sizing: border-box;
 }
 
-
-.footer-notes {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- color:yellow;
-  }
-
-.footer-notes ul{
+.footer-container {
   display: flex;
-  align-self: flex-end;
-  color:green;
-  }
-
-.tajam-logo {
-  display: inline-flex;
-  color:red;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: auto;
 }
 
-.about {
-  background-color: grey;
-}
-
-.contact {
+.footer-info {
+  width: 50vmin;
   background-color: hotpink;
-}
+  }
