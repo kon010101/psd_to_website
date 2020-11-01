@@ -166,7 +166,10 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
+ /*  position: relative; */
 }
+
 
 .footer-container {
   display: flex;
@@ -174,9 +177,64 @@ footer {
   justify-content: space-around;
   padding: 0;
   margin: auto;
+  width: 80%;
 }
 
 .footer-info {
-  width: 50vmin;
-  background-color: hotpink;
+  width: 50vh;
+  margin: auto;
   }
+
+.footer-notes{
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  align-items: baseline;
+  
+}
+
+ .footer-notes li{
+  float: left;
+  display: block;
+  padding: 10px;
+  margin: auto;
+
+}
+
+#Copyright-note {
+
+  text-align: end;
+  float: right;
+  
+}
+ 
+.tajam-logo {
+  display: flex;;
+}
+.ftr_lebel {
+  display: flex;
+}
+
+footer input[type=email] {
+  border-style: none;
+  width: 75%;
+  height: 25px;
+ /*  border: 2px gray; */
+  background-color: transparent;
+  text-align: center;
+  border: 2px solid grey;
+  color: gray;
+}
+
+footer input[type=email]:hover {
+
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+footer input[type=email]:focus {
+
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(3, 0, 156);
+}
