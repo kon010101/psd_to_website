@@ -16,7 +16,7 @@
 h1 {
   font-family: "Playfair Display", serif;
   margin-bottom: 36px;
-  font-size:24px;
+  font-size: 24px;
 }
 
 .common-btn {
@@ -48,7 +48,7 @@ header {
 }
 
 .header-text h1 {
-font-size: 36px;
+  font-size: 36px;
 }
 
 .navbar {
@@ -88,10 +88,43 @@ font-size: 36px;
 .navbar a {
   color: white;
   transition: 0.7s;
+  float: left;
+  display: block;
 }
 
 .navbar a:hover {
   color: var(--blue);
+}
+
+.navbar .icon {
+  display: none;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar a {
+    display: none;
+  }
+  .navbar-items a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 .header-text-container {
@@ -136,7 +169,7 @@ hr.solid {
   color: var(--grey);
 }
 
-.our-story-img{
+.our-story-img {
   padding: 48px;
 }
 
@@ -190,7 +223,7 @@ hr.solid {
   align-items: center;
 }
 
-.expertise h1{
+.expertise h1 {
   margin-top: 36px;
 }
 
@@ -209,7 +242,7 @@ hr.solid {
 .expertise-underline-small {
   width: 120px;
   height: 1px;
-  background-color:var(--grey);
+  background-color: var(--grey);
   margin-bottom: 36px;
 }
 
@@ -256,7 +289,7 @@ hr.solid {
 
 .team-container {
   background-image: url(Assets/bgk-header.png);
-  width:100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,12 +305,12 @@ hr.solid {
   padding: 36px 0;
 }
 
-.team-content p{
-  margin:8px;
+.team-content p {
+  margin: 8px;
 }
 
-.team-content h2{
-  font-family: 'Playfair Display', serif;
+.team-content h2 {
+  font-family: "Playfair Display", serif;
 }
 
 .team-content hr {
@@ -285,7 +318,7 @@ hr.solid {
   color: white;
 }
 
-.team-grid{
+.team-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -294,40 +327,40 @@ hr.solid {
   margin-bottom: 36px;
 }
 
-.teamer{
-  border:1px solid var(--white);
+.teamer {
+  border: 1px solid var(--white);
   margin: 6px;
 }
 
-.teamer-img{
-  width:240px;
-  height:240px;
+.teamer-img {
+  width: 240px;
+  height: 240px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.teamer-profile-01{
+.teamer-profile-01 {
   background-image: url(Assets/JPG/odisha.jpg);
 }
 
-.teamer-profile-02{
+.teamer-profile-02 {
   background-image: url(Assets/JPG/omo-2.jpg);
 }
 
-.teamer-profile-03{
+.teamer-profile-03 {
   background-image: url(Assets/JPG/omo.jpg);
 }
 
-.teamer-profile-04{
+.teamer-profile-04 {
   background-image: url(Assets/JPG/yanomami.jpg);
 }
 
-.teamer-name{
+.teamer-name {
   font-weight: 700;
 }
 
-.teamer-info{
+.teamer-info {
   padding: 8px 0;
 }
 
@@ -406,8 +439,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
- }
-
+}
 
 .footer-container {
   display: flex;
@@ -425,30 +457,26 @@ footer {
   justify-content: space-evenly;
   margin: 3%;
   align-self: flex-start;
-  }
+}
 
-.footer-notes{
+.footer-notes {
   overflow: hidden;
   width: 80%;
   margin: auto;
-   
 }
 
- .footer-notes li{
+.footer-notes li {
   float: left;
   display: block;
   padding: 10px;
   margin: auto;
-
 }
 
 #Copyright-note {
-
   text-align: end;
   float: right;
-  
 }
- 
+
 .tajam-logo {
   display: flex;
   margin: auto;
@@ -459,59 +487,55 @@ footer {
   padding-inline-start: 10%;
 }
 
-footer input[type=email] {
+footer input[type="email"] {
   border-style: none;
   width: 75%;
   height: 25px;
- /*  border: 2px gray; */
+  /*  border: 2px gray; */
   background-color: transparent;
   text-align: center;
   border: 2px solid grey;
   color: gray;
 }
 
-footer input[type=email]:hover {
-
+footer input[type="email"]:hover {
   border: 2px solid white;
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-footer input[type=email]:focus {
-
+footer input[type="email"]:focus {
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 1);
   color: rgb(3, 0, 156);
 }
 
-
-
-footer input[type=image] {
- width: auto;
+footer input[type="image"] {
+  width: auto;
   height: 25px;
   margin-left: 2px;
   padding-left: 4px;
   padding-right: 5px;
-  border: 2px solid rgba(255, 255, 255, 0.50);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   background-color: transparent;
   vertical-align: middle;
-  background-color:rgba(255, 255, 255, 0.50) ;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-footer input[type=image]:hover {
-  background-color:rgba(255, 255, 255, 0.90);
+footer input[type="image"]:hover {
+  background-color: rgba(255, 255, 255, 0.9);
   column-fill: var(--blue);
 }
 
-.social-links span{
+.social-links span {
   justify-content: space-between;
   margin: 1%;
 }
 
-footer a{
+footer a {
   color: white;
 }
 
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 #studio-address span {

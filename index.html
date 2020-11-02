@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@100;400;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
     <title>PSD to Website</title>
   </head>
 
@@ -18,7 +20,8 @@
       <nav class="navbar">
         <logo class="logo-img"><span>tajan</span></logo>
 
-        <ul>
+       <div class="navbar-items" id="MyNavBarItems">
+       <ul>
           <li><a href="">home</a></li>
           <li><a href="">about</a></li>
           <li><a href="">expertise</a></li>
@@ -26,7 +29,11 @@
           <li><a href="">works</a></li>
           <li><a href="">people say</a></li>
           <li><a href="">contacts</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+            <i class="fa fa-bars"></i>
+          </a></li>
         </ul>
+        </div>
       </nav>
 
       <div class="header-text-container">
