@@ -420,7 +420,7 @@ footer {
 }
 
 .footer-info {
-  min-width: 50vmin;
+  min-width: 33vmin;
   max-width: 50vh;
   justify-content: space-evenly;
   margin: 3%;
