@@ -137,7 +137,7 @@ hr.solid {
 }
 
 .our-story-img{
-  margin: 36px;
+  padding: 48px;
 }
 
 .text-box-our-story button {
@@ -323,11 +323,15 @@ hr.solid {
   background-image: url(Assets/JPG/yanomami.jpg);
 }
 
+.teamer-name{
+  font-weight: 700;
+}
+
 .teamer-info{
   padding: 8px 0;
 }
 
-/* FORM */
+/* GOOD NEWS */
 
 .good-news-form input[name="Message"] {
   padding-bottom: 50%;
@@ -372,6 +376,7 @@ hr.solid {
 .good-news-headline {
   font-size: 18px;
   font-weight: 900;
+  font-family: "Playfair Display", serif;
 }
 
 .form {
