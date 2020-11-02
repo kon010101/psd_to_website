@@ -217,8 +217,8 @@ hr.solid {
   background-color: lightgray;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 1px;
+  grid-template-rows: 1fr, 1fr;
+  grid-gap: 2px;
   margin-bottom: 48px;
 }
 
@@ -228,19 +228,19 @@ hr.solid {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 220px;
-  width: 240px;
+  height: 15em;
+  width: 20em;
   padding: 10px;
 }
 
 .expertise-grid-container > div > span {
-  font-size: 12px;
+  font-size: 1em;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .expertise-grid-container > div > p {
-  font-size: 10px;
+  font-size: 1em;
   line-height: 1.5;
   color: gray;
   padding: 5px;
@@ -248,8 +248,21 @@ hr.solid {
 
 .expertise-grid-container > div > img {
   padding: 20px;
-  height: 50px;
-  width: 50px;
+  height: 4em;
+  width: 4em;
+}
+
+@media screen and (max-width: 1000px) {
+.expertise-grid-container {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr 1fr;
+  grid-gap: 2px;
+  margin-bottom: 48px;
+}
+
+
 }
 
 /* TEAM */
