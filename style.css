@@ -400,7 +400,7 @@ hr.solid {
 }
 
 footer {
-  background-image: url(/Assets/bgk-footer.png);
+  background-image: url(./Assets/bgk-footer.png);
   width: 100%;
   background-size: cover;
   background-position: center;
