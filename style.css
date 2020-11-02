@@ -398,3 +398,122 @@ hr.solid {
   margin: 5px 0;
   padding: 10px;
 }
+
+footer {
+  background-image: url(/Assets/bgk-footer.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+ }
+
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-bottom: auto;
+  vertical-align: top;
+}
+
+.footer-info {
+  min-width: 50vmin;
+  max-width: 50vh;
+  justify-content: space-evenly;
+  margin: 3%;
+  align-self: flex-start;
+  }
+
+.footer-notes{
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+   
+}
+
+ .footer-notes li{
+  float: left;
+  display: block;
+  padding: 10px;
+  margin: auto;
+
+}
+
+#Copyright-note {
+
+  text-align: end;
+  float: right;
+  
+}
+ 
+.tajam-logo {
+  display: flex;
+  margin: auto;
+}
+.ftr_lebel {
+  display: flex;
+  padding: 5%;
+  padding-inline-start: 10%;
+}
+
+footer input[type=email] {
+  border-style: none;
+  width: 75%;
+  height: 25px;
+ /*  border: 2px gray; */
+  background-color: transparent;
+  text-align: center;
+  border: 2px solid grey;
+  color: gray;
+}
+
+footer input[type=email]:hover {
+
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+footer input[type=email]:focus {
+
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(3, 0, 156);
+}
+
+
+
+footer input[type=image] {
+ width: auto;
+  height: 25px;
+  margin-left: 2px;
+  padding-left: 4px;
+  padding-right: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.50);
+  background-color: transparent;
+  vertical-align: middle;
+  background-color:rgba(255, 255, 255, 0.50) ;
+}
+
+footer input[type=image]:hover {
+  background-color:rgba(255, 255, 255, 0.90);
+  column-fill: var(--blue);
+}
+
+.social-links span{
+  justify-content: space-between;
+  margin: 1%;
+}
+
+footer a{
+  color: white;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+#studio-address span {
+  margin-left: 5%;
+}
